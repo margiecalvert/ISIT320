@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html ng-app>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        
+        <title>Miles Conversions</title>
+        <script src="angular.js"></script>
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <h1>Elvenware Test Project</h1>
+        
+        <div ng-controller="MyController">
+            {{hint}}
+            <div>
+            <input type="number" ng-model="miles" required ng-minlength="1" />
+            <p><strong>Number of feet in {{miles}} miles</strong>: {{convertMilesToFeet()}}</p>
+            <p><strong>Number of inches in {{miles}} miles</strong>: {{convertMilesToInches()}}</p>
+            <p><strong>Number of yards in {{miles}} miles</strong>: {{convertMilesToYards()}}</p>
+            <p><strong>Number of kilometers in {{miles}} miles</strong>: {{convertMilesToKilometers()}}</p>
+            </div>
+        </div>
+        
+
+<div  ng-controller="MyController">
+      <label>Enter number of Kilometers:</label>
+      <input type="number" ng-model="kilometers" placeholder="Enter kilometers">
+      <hr>
+      <p>Number of miles in {{kilometers}} kilometers:</p>
+      <p>Miles:   {{convertKilometersToMiles()}}</p>
+    </body>
+</html>
