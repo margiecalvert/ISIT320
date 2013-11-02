@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html ng-app = "diceApp">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>"Dice"</title>
+		<script src="angular.js"></script>
+		<script src="trialAlt.js"></script>
+
+	</head>
+
+	<body>
+		<h1>Dice</h1>
+		<div ng-controller="DieController">
+
+			<!-------------------Roll D6------------------------------>
+			<p ng-model="d6">
+				{{d6.description}}
+			</p>
+
+			<button ng-click = "rollD6()">
+				Roll D6
+			</button>
+			<br/>
+
+			<p>
+				You rolled: {{rollD6Result}}
+			</p>
+			<br/>
+			<!-------------------Roll 2D6------------------------------>
+			<p ng-model="twod6">
+				{{twod6.description}}
+			</p>
+			<button ng-click = "roll2D6()">
+				Roll 2D6
+			</button>
+			<br/>
+			<p>
+				Die 1: {{roll2D6Result1}}
+			</p>
+			<p>
+				Die 2: {{roll2D6Result2}}
+			</p>
+			<p>
+				You rolled: {{roll2D6Result}}
+			</p>
+			<br/>
+
+			<!-------------------Roll 3D6------------------------------>
+			<p ng-model="threed6">
+				{{threed6.description}}
+			</p>
+			<button ng-click = "roll3D6()">
+				Roll 3D6
+			</button>
+			<br/>
+			<p>
+				Die 1: {{roll3D6Result1}}
+			</p>
+			<p>
+				Die 2: {{roll3D6Result2}}
+			</p>
+			<p>
+				Die 3: {{roll3D6Result3}}
+			</p>
+			<p>
+				You rolled: {{roll3D6Result}}
+			</p>
+			<br/>
+
+			<!-----------------Roll D4----------------------------------->
+			<p ng-model="d4">
+				{{d4.description}}
+			</p>
+			<button ng-click = "rollD4()">
+				Roll D4
+			</button>
+			<br/>
+
+			<p>
+				You rolled: {{rollD4Result}}
+			</p>
+			<br/>
+			<!-------------------Roll D10-------------------------------->
+			<p ng-model="d10">
+				{{d10.description}}
+			</p>
+			<button ng-click = "rollD10()">
+				Roll D10
+			</button>
+			<br/>
+
+			<p>
+				You rolled: {{rollD10Result}}
+			</p>
+			<br/>
+			<!----------------------D20------------------------------------------>
+			<p ng-model="d20">
+				{{d20.description}}
+			</p>
+			<button ng-click = "rollD20()">
+				Roll D20
+			</button>
+			<br/>
+
+			<p>
+				You rolled: {{rollD20Result}}
+			</p>
+			<br/>
+		</div>
+	</body>
+</html>
