@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<testsuites>
+  <testsuite name="Chrome 31.0.1650 (Windows)" package="undefined" timestamp="2013-11-17T04:59:59" id="0" hostname="CedarIsle" tests="7" errors="0" failures="0" time="0.016">
+    <properties>
+      <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36"/>
+    </properties>
+    <testcase name="can find people factory" time="0.016" classname="Chrome 31.0.1650 (Windows).Characters Test"/>
+    <testcase name="can find a tower" time="0" classname="Chrome 31.0.1650 (Windows).Characters Test"/>
+    <testcase name="can find the hero" time="0" classname="Chrome 31.0.1650 (Windows).Characters Test"/>
+    <testcase name="can find the hero hitpoints" time="0" classname="Chrome 31.0.1650 (Windows).Characters Test"/>
+    <testcase name="can find the hero damage" time="0" classname="Chrome 31.0.1650 (Windows).Characters Test"/>
+    <testcase name="Can create gameEventService" time="0" classname="Chrome 31.0.1650 (Windows).Test Elf Game"/>
+    <testcase name="gets the width of the playing field" time="0" classname="Chrome 31.0.1650 (Windows).Test Elf Game"/>
+    <system-out><![CDATA[
+]]></system-out>
+    <system-err/>
+  </testsuite>
+</testsuites>

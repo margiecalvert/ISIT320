@@ -68,17 +68,27 @@ angular.module('characters', []).factory('people', function($http) {'use strict'
 			xpForLevelTwo : 1250
 		}],
 
-		hero : function() {			
-			var getDataJson = $http.get('margie.json');
+		hero : {
+			hitPoints: 14,
 			
-			getDataJson.success(function(data, status, headers, config)  {
-				people.hero = data;
-			});
+			damage: 3,
+			
+			loadData: function() {		
+			
+			 	
+				var getDataJson = $http.get('margie.json');
+				
+				getDataJson.success(function(data, status, headers, config)  {
+					console.log("Success: " + data);
+					people.hero = data;
+				});
+		
+				getDataJson.error(function(data, status, headers, config) {
+					console.log("Error: " + data);
+					throw new Error('Oh no! An Error!');
+				});
 	
-			getDataJson.error(function(data, status, headers, config) {
-				throw new Error('Oh no! An Error!');
-			});
-
+			}
 		},
 
 		tower : function() {
