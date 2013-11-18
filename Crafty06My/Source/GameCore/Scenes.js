@@ -98,7 +98,7 @@ Crafty.scene('Victory', function() { 'use strict';
 // Load binary assets such as images and audio files
 Crafty.scene('Loading', function(){ 'use strict';
 
-	var assets = ['Assets/cscGarden01-32X32.png',
+	var assets = ['Assets/margieGarden.png',
 		'Assets/BoyWalk.png',
 		'Assets/door_knock_3x.mp3',
 		'Assets/People256.png'
