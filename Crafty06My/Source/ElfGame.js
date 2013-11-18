@@ -18,6 +18,7 @@ angular.module('elfGameMod', ['characters', 'gameWrapper'])
 
 		villages : [],
 
+		// Report an event
 		reportEvent : function(message) {
 			gameEventService.towerBroadcast(message);
 		},
@@ -32,6 +33,15 @@ angular.module('elfGameMod', ['characters', 'gameWrapper'])
 
 		rollD3 : function(village) {
 			village.tower.hitPoints -= Math.floor(Math.random() * 3);
+			if (village.tower.hitPoints <= 2 && people.hero.hitPoints >2){
+				setTimeout(function(){gameEventService.encounterBroadcast('Village sleeping.');},1000);
+				
+			}
+			else if (people.hero.hitPoints <= 2 && village.tower.hitPoints >2){
+				setTimeout(function(){gameEventService.encounterBroadcast('Hero resting.');},1000);
+			}	
+			
+			else(gameEventService.encounterBroadcast('It is a hard battle.'));
 		},
 
         encounterFood : function(food) {
@@ -55,6 +65,11 @@ angular.module('elfGameMod', ['characters', 'gameWrapper'])
 
 		newVillage : function(village) {
 			village.tower = people.tower();
+			village.tower.loadTower(function(tower) {
+				village.tower.hitPoints = tower[0].hitPoints;
+				village.tower.damage = tower[0].damage;
+				console.log(village.tower[0].hitPoints);
+			});					
 			this.villages.push(village);
 		},
 
@@ -97,6 +112,7 @@ angular.module('elfGameMod', ['characters', 'gameWrapper'])
 			// Call load scene, defined below
 			Crafty.scene('Loading'); */
 			people.hero.loadData();
+			//people.tower().loadTower();
 		}
 	};
 });
