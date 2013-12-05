@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<testsuites>
+  <testsuite name="Chrome 31.0.1650 (Windows 7)" package="undefined" timestamp="2013-12-05T01:58:40" id="0" hostname="Redlily" tests="4" errors="0" failures="0" time="0.171">
+    <properties>
+      <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36"/>
+    </properties>
+    <testcase name="Sum two values" time="0.156" classname="Chrome 31.0.1650 (Windows 7).calculator"/>
+    <testcase name="Sum two other values" time="0" classname="Chrome 31.0.1650 (Windows 7).calculator"/>
+    <testcase name="Get Circle area" time="0.015" classname="Chrome 31.0.1650 (Windows 7).circle test"/>
+    <testcase name="Get Triangle area" time="0" classname="Chrome 31.0.1650 (Windows 7).circle test"/>
+    <system-out><![CDATA[
+]]></system-out>
+    <system-err/>
+  </testsuite>
+</testsuites>
