@@ -22,6 +22,11 @@ describe("circle test", function() {'use strict';
         expect(circle.GetAreaOfCircle(3)).toEqual(28.26);
     });
     
+    it ("Get Circle circumference", function(){
+    	expect(circle.getCircumferenceOfCircle(3)).toEqual(18.84);
+    	
+    });
+    
     it ('Get Triangle area', function(){
     	expect (triangle.pythagorus(3,6)).toEqual(45);
     });
