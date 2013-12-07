@@ -1,0 +1,66 @@
+<!doctype html>
+<html ng-app="bookMod">
+	<head>
+		<link href="index.css" rel="stylesheet" type="text/css" />
+		<script src="angular.js"></script>
+		<script src="Book.js"></script>
+	</head>
+	<body>
+
+		<!-- div ng-init="authors = [
+		{author:'Dickens', book: 'Great Expectations'},
+		{author:'Tolstoy', book: 'War and Peace'},
+		{author:'Melville', book: 'Moby Dick'},
+		{author:'Christie', book: 'Murder on the Orient Express'},
+		{author:'Hemingway', book: 'The Sun Also Rises'}
+
+		]">
+		</div -->
+
+		<div ng-controller="bookController">
+			<span class="caption">Search all fields: </span>
+			<input ng-model="search.$">
+			<br>
+			<span class="caption">Search for an Author: </span>
+			<input ng-model="search.author">
+			<br>
+			<span class="caption">Search for a Book: </span>
+			<input ng-model="search.book">
+			<br>
+
+			Use exact match
+			<input type="checkbox" ng-model="strict">
+			<br>
+
+			<hr />
+
+			<table id="searchObjResults">
+				<tr>
+					<th>Author</th><th>Book</th>
+				</tr>
+				<tr ng-repeat="author in authors | filter:search:strict">
+					<td>{{author.author}}</td>
+					<td>{{author.book}}</td>
+
+				</tr>
+			</table>
+
+			<span class="caption">Enter an  name to get the author: </span>
+			<input ng-model="bookAuthor">
+			<button ng-click="bookFromAuthor()">
+				Get Author
+			</button>
+			<span class = "caption">Author: {{authorFromBook}}</span>
+			<br>
+
+			<span class="caption">Enter an author to get a Book: </span>
+			<input ng-model="authorBook">
+			<button ng-click="authorFromBook()">
+				Get Book
+			</button>
+			<span class = "caption">Book: {{bookFromAuthor}}</span>
+			<br>
+
+		</div>
+	</body>
+</html>
