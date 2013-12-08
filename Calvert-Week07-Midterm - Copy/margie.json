@@ -1,0 +1,8 @@
+{
+	"name": "Urbis",
+	"hitPoints": 12,
+	"health": 5,
+	"damage": 2,
+	"bonusDamage": 4,
+	"bonusHitPoints": 1
+}

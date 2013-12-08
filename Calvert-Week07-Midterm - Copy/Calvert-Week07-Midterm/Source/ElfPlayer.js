@@ -5,7 +5,7 @@
  /* jshint devel: true */
 
 angular.module('elfPlayer', ['elfGameMod'])
-.factory('gameEventService', function($rootScope) {"use strict";
+.factory('gameEventService', function($rootScope) { 'use strict';
 	return {
 		message: "",
 
@@ -13,11 +13,6 @@ angular.module('elfPlayer', ['elfGameMod'])
 			this.message = message;
 			this.broadcastMessage('towerBroadcast');
 		},
-		
-		/*heroEncounterBroadcast: function(message){
-			this.message = message;
-			this.broadcastMessage('heroEncounterBroadcast');
-		},*/
 
 		debugBroadcast: function(message) {
 			this.message = message;
@@ -44,7 +39,7 @@ angular.module('elfPlayer', ['elfGameMod'])
 	game.start();
 }); */
 
-.controller('ElfController', function($scope, gameEventService, elfgame) {"use strict";
+.controller('ElfController', function($scope, gameEventService, elfgame) { 'use strict';
 
 	$scope.name = "ElfPlayer";
 	$scope.eventNote = "no messages";
@@ -79,12 +74,6 @@ angular.module('elfPlayer', ['elfGameMod'])
 		$scope.$apply(function() { $scope.encounterMessage = gameEventService.message; });
 		console.log(gameEventService.message);
 	});
-	
-	/*$scope.$on('heroEncounterBroadcast', function() {
-		// this.$scope.eventNote = gameEventService.message;
-		$scope.$apply(function() { $scope.heroEncounterMessage = gameEventService.message; });
-		console.log(gameEventService.message);
-	});*/
 
 	$scope.goLeft = function() {
 		elfgame.goLeft();

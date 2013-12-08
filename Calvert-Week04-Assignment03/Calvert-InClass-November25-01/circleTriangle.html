@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html ng-app = "thisApp">
+	<head>
+		<script src = "angular.js"> </script>
+		<script src = "MainCircleTriangle.js"> </script>
+		<script src = "Triangle.js"> </script>
+		<script src = "Circle.js"> </script>
+	</head>
+
+	<body>
+		<div>
+			<header>
+				<h1>HTML</h1>
+			</header>
+			<nav>
+				<p>
+					<a href="/">Home</a>
+				</p>
+				<p>
+					<a href="/contact">Contact</a>
+				</p>
+			</nav>
+
+			<div ng-controller = "mainController">
+				<p>Circle: {{GetAreaofCircle}}</p>
+				<p>Triangle: {{pythagorus}}</p>
+			</div>
+
+			<footer>
+				<p>
+					&copy; Copyright  by Margie
+				</p>
+			</footer>
+		</div>
+	</body>
+</html>

@@ -5,8 +5,7 @@
  */
 
 angular.module('characters', [])
-.factory('people', function() {
-
+.factory('people', function() {"use strict";
 	return {
 		hint: "Enter a number of miles",
 		

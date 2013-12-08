@@ -1,7 +1,7 @@
 /* jshint browser: true */
 
-angular.module('elfGameMod', ['characters'])
-.factory('elfgame', function(gameEventService, people) {"use strict";
+angular.module('elfGameMod', ['characters', 'gameWrapper'])
+.factory('elfgame', function(gameEventService, people, gameWrap) { 'use strict';
 
 	return {
 
@@ -18,6 +18,7 @@ angular.module('elfGameMod', ['characters'])
 
 		villages : [],
 
+		// Report an event
 		reportEvent : function(message) {
 			gameEventService.towerBroadcast(message);
 		},
@@ -31,37 +32,44 @@ angular.module('elfGameMod', ['characters'])
 		},
 
 		rollD3 : function(village) {
-			village.tower.health -=  people.hero.damage + people.hero.bonusDamage();
-			people.hero.health -= village.tower.damage + village.tower.bonusDamage();
-			village.tower.hitPoints -= people.hero.damage + people.hero.bonusDamage();
-			people.hero.hitPoints -= village.tower.damage + village.tower.bonusDamage();
+			village.tower.hitPoints -= Math.floor(Math.random() * 3);
+			if (village.tower.hitPoints <= 2 && people.hero.hitPoints >2){
+				setTimeout(function(){gameEventService.encounterBroadcast('Village sleeping.');},1000);
+				
+			}
+			else if (people.hero.hitPoints <= 2 && village.tower.hitPoints >2){
+				setTimeout(function(){gameEventService.encounterBroadcast('Hero resting.');},1000);
+			}	
+			
+			else(gameEventService.encounterBroadcast('It is a hard battle.'));
 		},
 
+        encounterFood : function(food) {
+            gameEventService.debugBroadcast("food");
+            gameEventService.encounterBroadcast('Food success');
+            return true;
+        },
+        
 		encounter : function(village) {
 			this.rollD3(village);
-			
-			
-
-			gameEventService.debugBroadcast(village.tower.name +": " +village.tower.health);
-			gameEventService.debugBroadcast(people.hero.name + ": " + people.hero.health);
-					
-			if (village.tower.health <= 0 && people.hero.health > 0) {
+			console.log("Hero name = " + people.hero.name);
+			gameEventService.debugBroadcast('Tower hit points: ' + village.tower.hitPoints);
+			if (village.tower.hitPoints <= 0) {
 				gameEventService.encounterBroadcast('success');
-				people.hero.health = 12;
 				return true;
-			} 
-			
-			else if (village.tower.health >0 && people.hero.health <= 0){
-				gameEventService.encounterBroadcast('Tower Won, Try Again');
-				people.hero.health = 12;
+			} else {
+				gameEventService.encounterBroadcast('miss');
 				return false;
 			}
-			
-			
 		},
 
 		newVillage : function(village) {
 			village.tower = people.tower();
+			village.tower.loadTower(function(tower) {
+				village.tower.hitPoints = tower[0].hitPoints;
+				village.tower.damage = tower[0].damage;
+				console.log(village.tower[0].hitPoints);
+			});					
 			this.villages.push(village);
 		},
 
@@ -83,6 +91,10 @@ angular.module('elfGameMod', ['characters'])
 			return this.map_grid.height * this.map_grid.tile.height;
 		},
 
+		initMapGrid : function(mapGrid) {
+			this.map_grid = mapGrid;
+		},
+		
 		// Initialize and start our game
 		start : function(mapGrid) {			
 			// Start crafty
@@ -92,12 +104,15 @@ angular.module('elfGameMod', ['characters'])
 			} else {
 				this.map_grid = this.defaultMapGrid;
 			}
-			Crafty.init(this.width(), this.height(), gameDiv);
+			gameWrap.startGame(gameDiv, this);	
+			/*Crafty.init(this.width(), this.height(), gameDiv);
 			Crafty.game = this;
 			Crafty.background('rgb(0, 109, 20)');
 
 			// Call load scene, defined below
-			Crafty.scene('Loading');
+			Crafty.scene('Loading'); */
+			people.hero.loadData();
+			//people.tower().loadTower();
 		}
 	};
 });
