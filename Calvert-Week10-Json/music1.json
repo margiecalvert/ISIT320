@@ -1,11 +1,9 @@
-
-
 {
-"musicians": [
-{ "musician":"Beatles" , "album":"White Album" }, 
-{ "musician":"Dylan" , "album":"Nashville Skyline" }, 
-{ "musician":"Doors" , "album":"Strange Days" },
-{ "musician":"Redding" , "album":"The Dock of the Bay" },
-{ "musician":"Cooke" , "album":"Night Beat" }
-]
+	"musicians": [
+		{ "musician":"Beatles" , "album":"White Album" }, 
+		{ "musician":"Dylan" , "album":"Nashville Skyline" }, 
+		{ "musician":"Doors" , "album":"Strange Days" },
+		{ "musician":"Redding" , "album":"The Dock of the Bay" },
+		{ "musician":"Cooke" , "album":"Night Beat" }
+	]
 }

@@ -34,5 +34,21 @@ angular.module('jsonServerMod', [])
 	};
 	
 	
+	$scope.musicianFromAlbum = function() {
+		for (var i = 0; i < $scope.data2.musicians.length; i++) {
+			if ($scope.data2.musicians[i].album === $scope.albumName) {
+				$scope.musicianFromAlbumResult = $scope.data2.musicians[i].musician;
+			}
+		}
+	};
+	
+	$scope.albumFromMusician = function() {
+		for (var i = 0; i < $scope.data2.musicians.length; i++) {
+			if ($scope.data2.musicians[i].musician === $scope.musicianName) {
+				$scope.albumFromMusicianResult = $scope.data2.musicians[i].album;
+			}
+		}
+	};
+	
 	
 });
