@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="4.3">
+	<file name="Source/Characters/Hero.js">
+		<error line="7" column="5" severity="error" message="Missing &quot;use strict&quot; statement." source="jshint.E007" />
+	</file>
+	<file name="Source/Characters/Races.js">
+		<error line="8" column="5" severity="error" message="Missing &quot;use strict&quot; statement." source="jshint.E007" />
+	</file>
+	<file name="Source/Characters/Tower.js">
+		<error line="7" column="5" severity="error" message="Missing &quot;use strict&quot; statement." source="jshint.E007" />
+	</file>
+	<file name="Tests/TestRaces.js">
+		<error line="26" column="4" severity="error" message="Mixed spaces and tabs." source="jshint.W099" />
+		<error line="27" column="1" severity="error" message="Mixed spaces and tabs." source="jshint.W099" />
+		<error line="28" column="1" severity="error" message="Mixed spaces and tabs." source="jshint.W099" />
+		<error line="29" column="1" severity="error" message="Mixed spaces and tabs." source="jshint.W099" />
+		<error line="30" column="1" severity="error" message="Mixed spaces and tabs." source="jshint.W099" />
+		<error line="31" column="1" severity="error" message="Mixed spaces and tabs." source="jshint.W099" />
+	</file>
+</checkstyle>

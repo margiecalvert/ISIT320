@@ -1,0 +1,444 @@
+[32mINFO [karma]: [39mKarma v0.10.8 server started at http://localhost:9876/
+[32mINFO [launcher]: [39mStarting browser Chrome
+[32mINFO [Chrome 31.0.1650 (Windows 7)]: [39mConnected on socket rzfYXyj-890UCI64od6v
+[31mChrome 31.0.1650 (Windows 7) Test Broadcasts: gameEventService Change Direction Broadcast FAILED[39m
+	TypeError: Cannot read property '2' of undefined
+	    at Object.$get (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Source/Characters/Hero.js:6:596)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3374:28)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	Error: Declaration Location
+	    at window.jasmine.window.inject.angular.mock.inject (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular-mocks.js:1764:25)
+	    at null.<anonymous> (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Tests/TestBroadcasts.js:13:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Tests/TestBroadcasts.js:5:1
+	TypeError: Cannot call method 'changeDirectionBroadcast' of null
+	    at null.<anonymous> (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Tests/TestBroadcasts.js:22:20)
+Chrome 31.0.1650 (Windows 7): Executed 1 of 31[31m (1 FAILED)[39m (0 secs / 0.047 secs)
+[1A[2K[31mChrome 31.0.1650 (Windows 7) Test Broadcasts: gameEventService Test Two Direction Broadcasts FAILED[39m
+	TypeError: Cannot read property '2' of undefined
+	    at Object.$get (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Source/Characters/Hero.js:6:596)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3374:28)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	TypeError: Cannot call method 'changeDirectionBroadcast' of null
+	    at null.<anonymous> (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Tests/TestBroadcasts.js:30:20)
+Chrome 31.0.1650 (Windows 7): Executed 2 of 31[31m (2 FAILED)[39m (0 secs / 0.047 secs)
+[1A[2K[31mChrome 31.0.1650 (Windows 7) Test Broadcasts: gameEventService Change Tower Broadcast FAILED[39m
+	TypeError: Cannot read property '2' of undefined
+	    at Object.$get (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Source/Characters/Hero.js:6:596)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3374:28)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	TypeError: Cannot call method 'towerBroadcast' of null
+	    at null.<anonymous> (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Tests/TestBroadcasts.js:37:20)
+Chrome 31.0.1650 (Windows 7): Executed 3 of 31[31m (3 FAILED)[39m (0 secs / 0.047 secs)
+[1A[2K[31mChrome 31.0.1650 (Windows 7) Test Broadcasts: gameEventService Tests a Debug Broadcast FAILED[39m
+	TypeError: Cannot read property '2' of undefined
+	    at Object.$get (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Source/Characters/Hero.js:6:596)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3374:28)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	TypeError: Cannot call method 'debugBroadcast' of null
+	    at null.<anonymous> (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Tests/TestBroadcasts.js:43:20)
+Chrome 31.0.1650 (Windows 7): Executed 4 of 31[31m (4 FAILED)[39m (0 secs / 0.047 secs)
+[1A[2K[31mChrome 31.0.1650 (Windows 7) Test Broadcasts: gameEventService Two Debug Broadcast FAILED[39m
+	TypeError: Cannot read property '2' of undefined
+	    at Object.$get (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Source/Characters/Hero.js:6:596)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3374:28)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	TypeError: Cannot call method 'debugBroadcast' of null
+	    at null.<anonymous> (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Tests/TestBroadcasts.js:49:20)
+Chrome 31.0.1650 (Windows 7): Executed 5 of 31[31m (5 FAILED)[39m (0 secs / 0.047 secs)
+[1A[2K[31mChrome 31.0.1650 (Windows 7) Test Broadcasts: gameEventService Tests Encounter Broadcast FAILED[39m
+	TypeError: Cannot read property '2' of undefined
+	    at Object.$get (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Source/Characters/Hero.js:6:596)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3374:28)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	TypeError: Cannot call method 'encounterBroadcast' of null
+	    at null.<anonymous> (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Tests/TestBroadcasts.js:56:20)
+Chrome 31.0.1650 (Windows 7): Executed 6 of 31[31m (6 FAILED)[39m (0 secs / 0.063 secs)
+[1A[2K[31mChrome 31.0.1650 (Windows 7) Test Elf Game Can create gameEventService FAILED[39m
+	TypeError: Cannot read property '2' of undefined
+	    at Object.$get (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Source/Characters/Hero.js:6:596)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3374:28)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	Error: Declaration Location
+	    at window.jasmine.window.inject.angular.mock.inject (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular-mocks.js:1764:25)
+	    at null.<anonymous> (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Tests/TestElfGame.js:14:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Tests/TestElfGame.js:5:2
+	Expected null to not equal null.
+	Error: Expected null to not equal null.
+	    at null.<anonymous> (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Tests/TestElfGame.js:21:26)
+Chrome 31.0.1650 (Windows 7): Executed 7 of 31[31m (7 FAILED)[39m (0 secs / 0.063 secs)
+[1A[2K[31mChrome 31.0.1650 (Windows 7) Test Elf Game gets the width of the playing field FAILED[39m
+	TypeError: Cannot read property '2' of undefined
+	    at Object.$get (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Source/Characters/Hero.js:6:596)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3374:28)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	TypeError: Cannot call method 'initMapGrid' of null
+	    at null.<anonymous> (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Tests/TestElfGame.js:26:18)
+Chrome 31.0.1650 (Windows 7): Executed 8 of 31[31m (8 FAILED)[39m (0 secs / 0.063 secs)
+[1A[2K[31mChrome 31.0.1650 (Windows 7) Test Elf Game gets the height of the playing field FAILED[39m
+	TypeError: Cannot read property '2' of undefined
+	    at Object.$get (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Source/Characters/Hero.js:6:596)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3374:28)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	TypeError: Cannot call method 'initMapGrid' of null
+	    at null.<anonymous> (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Tests/TestElfGame.js:39:18)
+Chrome 31.0.1650 (Windows 7): Executed 9 of 31[31m (9 FAILED)[39m (0 secs / 0.063 secs)
+[1A[2K[31mChrome 31.0.1650 (Windows 7) Test Elf Game rolls the D3 FAILED[39m
+	TypeError: Cannot read property '2' of undefined
+	    at Object.$get (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Source/Characters/Hero.js:6:596)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3374:28)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	TypeError: Cannot call method 'rollD3' of null
+	    at null.<anonymous> (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Tests/TestElfGame.js:53:32)
+Chrome 31.0.1650 (Windows 7): Executed 10 of 31[31m (10 FAILED)[39m (0 secs / 0.063 secs)
+[1A[2K[31mChrome 31.0.1650 (Windows 7) Test Elf Game registers a new village with the villages array FAILED[39m
+	TypeError: Cannot read property '2' of undefined
+	    at Object.$get (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Source/Characters/Hero.js:6:596)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3374:28)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	TypeError: Cannot call method 'newVillage' of null
+	    at null.<anonymous> (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Tests/TestElfGame.js:60:31)
+Chrome 31.0.1650 (Windows 7): Executed 11 of 31[31m (11 FAILED)[39m (0 secs / 0.078 secs)
+[1A[2K[31mChrome 31.0.1650 (Windows 7) Test Elf Game simulates an encounter FAILED[39m
+	TypeError: Cannot read property '2' of undefined
+	    at Object.$get (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Source/Characters/Hero.js:6:596)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3374:28)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	TypeError: Cannot call method 'encounter' of null
+	    at null.<anonymous> (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Tests/TestElfGame.js:65:31)
+Chrome 31.0.1650 (Windows 7): Executed 12 of 31[31m (12 FAILED)[39m (0 secs / 0.078 secs)
+[1A[2K[31mChrome 31.0.1650 (Windows 7) Test Elf Game simulates an encounter tower end FAILED[39m
+	TypeError: Cannot read property '2' of undefined
+	    at Object.$get (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Source/Characters/Hero.js:6:596)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3374:28)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	TypeError: Cannot call method 'encounter' of null
+	    at null.<anonymous> (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Tests/TestElfGame.js:70:31)
+Chrome 31.0.1650 (Windows 7): Executed 13 of 31[31m (13 FAILED)[39m (0 secs / 0.078 secs)
+[1A[2K[31mChrome 31.0.1650 (Windows 7) Test Elf Game simulates a food encounter FAILED[39m
+	TypeError: Cannot read property '2' of undefined
+	    at Object.$get (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Source/Characters/Hero.js:6:596)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3374:28)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	TypeError: Cannot call method 'encounterFood' of null
+	    at null.<anonymous> (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Tests/TestElfGame.js:75:31)
+Chrome 31.0.1650 (Windows 7): Executed 14 of 31[31m (14 FAILED)[39m (0 secs / 0.078 secs)
+[1A[2K[31mChrome 31.0.1650 (Windows 7) Test Elf Game reports an event FAILED[39m
+	TypeError: Cannot read property '2' of undefined
+	    at Object.$get (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Source/Characters/Hero.js:6:596)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3374:28)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	TypeError: Cannot call method 'reportEvent' of null
+	    at null.<anonymous> (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Tests/TestElfGame.js:91:31)
+Chrome 31.0.1650 (Windows 7): Executed 15 of 31[31m (15 FAILED)[39m (0 secs / 0.078 secs)
+[1A[2K[31mChrome 31.0.1650 (Windows 7) Test Elf Game sends a change direction message FAILED[39m
+	TypeError: Cannot read property '2' of undefined
+	    at Object.$get (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Source/Characters/Hero.js:6:596)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3374:28)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	TypeError: Cannot call method 'changeDirectionMessage' of null
+	    at null.<anonymous> (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Tests/TestElfGame.js:97:31)
+Chrome 31.0.1650 (Windows 7): Executed 16 of 31[31m (16 FAILED)[39m (0 secs / 0.078 secs)
+[1A[2K[31mChrome 31.0.1650 (Windows 7) Test Elf Game sends a change direction message to elfcontroller FAILED[39m
+	TypeError: Cannot read property '2' of undefined
+	    at Object.$get (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Source/Characters/Hero.js:6:596)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3374:28)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	TypeError: Cannot call method 'changeDirectionMessage' of null
+	    at null.<anonymous> (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Tests/TestElfGame.js:103:31)
+Chrome 31.0.1650 (Windows 7): Executed 17 of 31[31m (17 FAILED)[39m (0 secs / 0.094 secs)
+[1A[2K[31mChrome 31.0.1650 (Windows 7) Test Elf Game sends a debug message FAILED[39m
+	TypeError: Cannot read property '2' of undefined
+	    at Object.$get (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Source/Characters/Hero.js:6:596)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3374:28)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	TypeError: Cannot call method 'sendDebugMessage' of null
+	    at null.<anonymous> (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Tests/TestElfGame.js:110:31)
+Chrome 31.0.1650 (Windows 7): Executed 18 of 31[31m (18 FAILED)[39m (0 secs / 0.094 secs)
+[1A[2K[31mChrome 31.0.1650 (Windows 7) Test Elf Game sends a debug message to elfcontroller FAILED[39m
+	TypeError: Cannot read property '2' of undefined
+	    at Object.$get (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Source/Characters/Hero.js:6:596)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3374:28)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	TypeError: Cannot call method 'sendDebugMessage' of null
+	    at null.<anonymous> (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Tests/TestElfGame.js:116:31)
+Chrome 31.0.1650 (Windows 7): Executed 19 of 31[31m (19 FAILED)[39m (0 secs / 0.094 secs)
+[1A[2K[31mChrome 31.0.1650 (Windows 7) Test Elf Game sends three debug messages to elfcontroller FAILED[39m
+	TypeError: Cannot read property '2' of undefined
+	    at Object.$get (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Source/Characters/Hero.js:6:596)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3374:28)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	TypeError: Cannot call method 'sendDebugMessage' of null
+	    at null.<anonymous> (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Tests/TestElfGame.js:125:18)
+Chrome 31.0.1650 (Windows 7): Executed 20 of 31[31m (20 FAILED)[39m (0 secs / 0.094 secs)
+[1A[2K[31mChrome 31.0.1650 (Windows 7) Test Elf Game is a very silly test FAILED[39m
+	TypeError: Cannot read property '2' of undefined
+	    at Object.$get (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Source/Characters/Hero.js:6:596)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3374:28)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+Chrome 31.0.1650 (Windows 7): Executed 21 of 31[31m (21 FAILED)[39m (0 secs / 0.094 secs)
+[1A[2K[31mChrome 31.0.1650 (Windows 7) Test Elf Player Check Name FAILED[39m
+	TypeError: Cannot read property '2' of undefined
+	    at Object.$get (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Source/Characters/Hero.js:6:596)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3374:28)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	Error: Declaration Location
+	    at window.jasmine.window.inject.angular.mock.inject (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular-mocks.js:1764:25)
+	    at null.<anonymous> (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Tests/TestElfPlayer.js:13:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Tests/TestElfPlayer.js:6:1
+	Expected undefined to equal 'ElfPlayer'.
+	Error: Expected undefined to equal 'ElfPlayer'.
+	    at null.<anonymous> (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Tests/TestElfPlayer.js:21:18)
+Chrome 31.0.1650 (Windows 7): Executed 22 of 31[31m (22 FAILED)[39m (0 secs / 0.094 secs)
+[1A[2K[31mChrome 31.0.1650 (Windows 7) Test Elf Player Check Event Note FAILED[39m
+	TypeError: Cannot read property '2' of undefined
+	    at Object.$get (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Source/Characters/Hero.js:6:596)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3374:28)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	Expected undefined to equal 'no messages'.
+	Error: Expected undefined to equal 'no messages'.
+	    at null.<anonymous> (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Tests/TestElfPlayer.js:26:18)
+Chrome 31.0.1650 (Windows 7): Executed 23 of 31[31m (23 FAILED)[39m (0 secs / 0.094 secs)
+[1A[2K[31mChrome 31.0.1650 (Windows 7) Test Elf Player Check Debug Messages FAILED[39m
+	TypeError: Cannot read property '2' of undefined
+	    at Object.$get (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Source/Characters/Hero.js:6:596)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3374:28)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	Expected undefined to equal [  ].
+	Error: Expected undefined to equal [  ].
+	    at null.<anonymous> (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Tests/TestElfPlayer.js:31:18)
+Chrome 31.0.1650 (Windows 7): Executed 24 of 31[31m (24 FAILED)[39m (0 secs / 0.094 secs)
+[1A[2K[31mChrome 31.0.1650 (Windows 7) Test Elf Player Check move Messages FAILED[39m
+	TypeError: Cannot read property '2' of undefined
+	    at Object.$get (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Source/Characters/Hero.js:6:596)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3374:28)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	Expected undefined to equal [  ].
+	Error: Expected undefined to equal [  ].
+	    at null.<anonymous> (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Tests/TestElfPlayer.js:36:18)
+Chrome 31.0.1650 (Windows 7): Executed 25 of 31[31m (25 FAILED)[39m (0 secs / 0.094 secs)
+[1A[2K[31mChrome 31.0.1650 (Windows 7) TestGameboard TestGameBoard Check ElfGame Width FAILED[39m
+	TypeError: Cannot read property '2' of undefined
+	    at Object.$get (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Source/Characters/Hero.js:6:596)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3374:28)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3352:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at getService (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	Error: Declaration Location
+	    at window.jasmine.window.inject.angular.mock.inject (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular-mocks.js:1764:25)
+	    at null.<anonymous> (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Tests/TestGameboard.js:15:42)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Tests/TestGameboard.js:6:1
+Chrome 31.0.1650 (Windows 7): Executed 26 of 31[31m (26 FAILED)[39m (0 secs / 0.094 secs)
+[1A[2K[31mChrome 31.0.1650 (Windows 7) Test hero can get a race FAILED[39m
+	TypeError: Cannot read property '2' of undefined
+	    at Object.$get (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Source/Characters/Hero.js:6:596)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3374:28)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at Object.getService [as get] (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at null.<anonymous> (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Tests/TestHero.js:14:20)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3374:28)
+	    at workFn (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular-mocks.js:1778:20)
+	Error: Declaration Location
+	    at window.jasmine.window.inject.angular.mock.inject (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular-mocks.js:1764:25)
+	    at null.<anonymous> (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Tests/TestHero.js:13:13)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Tests/TestHero.js:5:1
+	Expected null to not equal null.
+	Error: Expected null to not equal null.
+	    at null.<anonymous> (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Tests/TestHero.js:18:16)
+Chrome 31.0.1650 (Windows 7): Executed 27 of 31[31m (27 FAILED)[39m (0 secs / 0.109 secs)
+[1A[2K[31mChrome 31.0.1650 (Windows 7) Test hero can get a dwarf FAILED[39m
+	TypeError: Cannot read property '2' of undefined
+	    at Object.$get (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Source/Characters/Hero.js:6:596)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3374:28)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3213:37
+	    at Object.getService [as get] (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3331:39)
+	    at null.<anonymous> (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Tests/TestHero.js:14:20)
+	    at Object.invoke (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular.js:3374:28)
+	    at workFn (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Library/angular-mocks.js:1778:20)
+	TypeError: Cannot read property 'name' of null
+	    at null.<anonymous> (C:/Users/Margie/Documents/prog270/Calvert-Final320My/Tests/TestHero.js:22:14)
+Chrome 31.0.1650 (Windows 7): Executed 28 of 31[31m (28 FAILED)[39m (0 secs / 0.109 secs)
+[1A[2KChrome 31.0.1650 (Windows 7): Executed 29 of 31[31m (28 FAILED)[39m (0 secs / 0.109 secs)
+[1A[2KChrome 31.0.1650 (Windows 7): Executed 30 of 31[31m (28 FAILED)[39m (0 secs / 0.109 secs)
+[1A[2KChrome 31.0.1650 (Windows 7): Executed 31 of 31[31m (28 FAILED)[39m (0 secs / 0.109 secs)
+[1A[2KChrome 31.0.1650 (Windows 7): Executed 31 of 31[31m (28 FAILED)[39m (0.364 secs / 0.109 secs)
+Terminate batch job (Y/N)? Terminate batch job (Y/N)? 
