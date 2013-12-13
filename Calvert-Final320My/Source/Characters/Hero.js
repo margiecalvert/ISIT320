@@ -2,10 +2,10 @@
  * @author Charlie
  */
 
-angular.module('heroMod', ['classesMod'])
-.factory('hero', function(classes) {
+angular.module('heroMod', ['classesMod', 'raceMod'])
+.factory('hero', function(classes, races) { 'use strict';
 	return {
-			// race: this.races[2],
+			"race": races[2],
 			"class": classes[2],
 			name: 'Sam',
 			hitPoints : 12,

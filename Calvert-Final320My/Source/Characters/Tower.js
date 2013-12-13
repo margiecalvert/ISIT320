@@ -3,7 +3,7 @@
  */
 
 angular.module('towerMod', []).
-factory('tower', function() {
+factory('tower', function() { 'use strict';
 	return {
 		// race: this.races[2],
 		// "class": this.classes[2],

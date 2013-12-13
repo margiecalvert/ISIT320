@@ -1,30 +1,225 @@
 <?xml version="1.0"?>
 <testsuites>
-  <testsuite name="Chrome 31.0.1650 (Windows)" package="undefined" timestamp="2013-12-04T18:23:54" id="0" hostname="MountainStreams" tests="21" errors="0" failures="0" time="0.063">
+  <testsuite name="Chrome 31.0.1650 (Windows 7)" package="undefined" timestamp="2013-12-13T02:43:15" id="0" hostname="Redlily" tests="104" errors="0" failures="0" time="0.234">
     <properties>
-      <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36"/>
+      <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36"/>
     </properties>
-    <testcase name="Change Direction Broadcast" time="0.032" classname="Chrome 31.0.1650 (Windows).Test Broadcasts: gameEventService"/>
-    <testcase name="Test Two Direction Broadcasts" time="0" classname="Chrome 31.0.1650 (Windows).Test Broadcasts: gameEventService"/>
-    <testcase name="Change Tower Broadcast" time="0" classname="Chrome 31.0.1650 (Windows).Test Broadcasts: gameEventService"/>
-    <testcase name="Tests a Debug Broadcast" time="0" classname="Chrome 31.0.1650 (Windows).Test Broadcasts: gameEventService"/>
-    <testcase name="Two Debug Broadcast" time="0.015" classname="Chrome 31.0.1650 (Windows).Test Broadcasts: gameEventService"/>
-    <testcase name="Tests Encounter Broadcast" time="0" classname="Chrome 31.0.1650 (Windows).Test Broadcasts: gameEventService"/>
-    <testcase name="Can create gameEventService" time="0" classname="Chrome 31.0.1650 (Windows).Test Elf Game"/>
-    <testcase name="gets the width of the playing field" time="0" classname="Chrome 31.0.1650 (Windows).Test Elf Game"/>
-    <testcase name="gets the height of the playing field" time="0" classname="Chrome 31.0.1650 (Windows).Test Elf Game"/>
-    <testcase name="reports an event" time="0" classname="Chrome 31.0.1650 (Windows).Test Elf Game"/>
-    <testcase name="sends a change direction message" time="0" classname="Chrome 31.0.1650 (Windows).Test Elf Game"/>
-    <testcase name="sends a change direction message to elfcontroller" time="0" classname="Chrome 31.0.1650 (Windows).Test Elf Game"/>
-    <testcase name="sends a debug message" time="0.016" classname="Chrome 31.0.1650 (Windows).Test Elf Game"/>
-    <testcase name="sends a debug message to elfcontroller" time="0" classname="Chrome 31.0.1650 (Windows).Test Elf Game"/>
-    <testcase name="sends three debug messages to elfcontroller" time="0" classname="Chrome 31.0.1650 (Windows).Test Elf Game"/>
-    <testcase name="is a very silly test" time="0" classname="Chrome 31.0.1650 (Windows).Test Elf Game"/>
-    <testcase name="Check Name" time="0" classname="Chrome 31.0.1650 (Windows).TestElfController"/>
-    <testcase name="Check Event Note" time="0" classname="Chrome 31.0.1650 (Windows).TestElfController"/>
-    <testcase name="Check Debug Messages" time="0" classname="Chrome 31.0.1650 (Windows).TestElfController"/>
-    <testcase name="Check move Messages" time="0" classname="Chrome 31.0.1650 (Windows).TestElfController"/>
-    <testcase name="TestGameBoard Check ElfGame Width" time="0" classname="Chrome 31.0.1650 (Windows).TestGameboard"/>
+    <testcase name="Change Direction Broadcast" time="0.047" classname="Chrome 31.0.1650 (Windows 7).Test Broadcasts: gameEventService"/>
+    <testcase name="Test Two Direction Broadcasts" time="0.016" classname="Chrome 31.0.1650 (Windows 7).Test Broadcasts: gameEventService"/>
+    <testcase name="Change Tower Broadcast" time="0" classname="Chrome 31.0.1650 (Windows 7).Test Broadcasts: gameEventService"/>
+    <testcase name="Tests a Debug Broadcast" time="0" classname="Chrome 31.0.1650 (Windows 7).Test Broadcasts: gameEventService"/>
+    <testcase name="Two Debug Broadcast" time="0" classname="Chrome 31.0.1650 (Windows 7).Test Broadcasts: gameEventService"/>
+    <testcase name="Tests Encounter Broadcast" time="0" classname="Chrome 31.0.1650 (Windows 7).Test Broadcasts: gameEventService"/>
+    <testcase name="can get a class" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Cleric" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Cleric&apos;s name" time="0.015" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Cleric&apos;s armor" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get Cleric hitDie" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Cleric shield" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Cleric spell" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Cleric weapon 0" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Cleric weapon 1" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Cleric weapon 2" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Cleric weapon 3" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Cleric weapon 4" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Cleric weapon 5" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Cleric spForLevelTwo" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Fighter" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Fighter" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Fighter hitDie" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Fighter shield" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Fighter spell" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Fighter weapon" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Fighter expFor Level 2" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Magic-User" time="0.016" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Magic-User armor" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Magic-User hitDie" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Magic-User shield" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Magic-User xpForLevel2" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Thief" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Thief armor" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Thief hitDie" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Thief shield" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Thief spells" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Thief weapons" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Thief weapons xp for Level 2" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="Can create gameEventService" time="0.015" classname="Chrome 31.0.1650 (Windows 7).Test Elf Game"/>
+    <testcase name="gets the width of the playing field" time="0" classname="Chrome 31.0.1650 (Windows 7).Test Elf Game"/>
+    <testcase name="gets the height of the playing field" time="0" classname="Chrome 31.0.1650 (Windows 7).Test Elf Game"/>
+    <testcase name="rolls the D3" time="0" classname="Chrome 31.0.1650 (Windows 7).Test Elf Game"/>
+    <testcase name="registers a new village with the villages array" time="0.016" classname="Chrome 31.0.1650 (Windows 7).Test Elf Game"/>
+    <testcase name="simulates an encounter" time="0" classname="Chrome 31.0.1650 (Windows 7).Test Elf Game"/>
+    <testcase name="simulates an encounter tower end" time="0" classname="Chrome 31.0.1650 (Windows 7).Test Elf Game"/>
+    <testcase name="simulates a food encounter" time="0" classname="Chrome 31.0.1650 (Windows 7).Test Elf Game"/>
+    <testcase name="reports an event" time="0.015" classname="Chrome 31.0.1650 (Windows 7).Test Elf Game"/>
+    <testcase name="sends a change direction message" time="0" classname="Chrome 31.0.1650 (Windows 7).Test Elf Game"/>
+    <testcase name="sends a change direction message to elfcontroller" time="0" classname="Chrome 31.0.1650 (Windows 7).Test Elf Game"/>
+    <testcase name="sends a debug message" time="0" classname="Chrome 31.0.1650 (Windows 7).Test Elf Game"/>
+    <testcase name="sends a debug message to elfcontroller" time="0" classname="Chrome 31.0.1650 (Windows 7).Test Elf Game"/>
+    <testcase name="sends three debug messages to elfcontroller" time="0" classname="Chrome 31.0.1650 (Windows 7).Test Elf Game"/>
+    <testcase name="is a very silly test" time="0.016" classname="Chrome 31.0.1650 (Windows 7).Test Elf Game"/>
+    <testcase name="Check Name" time="0" classname="Chrome 31.0.1650 (Windows 7).Test Elf Player"/>
+    <testcase name="Check Event Note" time="0" classname="Chrome 31.0.1650 (Windows 7).Test Elf Player"/>
+    <testcase name="Check Debug Messages" time="0" classname="Chrome 31.0.1650 (Windows 7).Test Elf Player"/>
+    <testcase name="Check move Messages" time="0" classname="Chrome 31.0.1650 (Windows 7).Test Elf Player"/>
+    <testcase name="TestGameBoard Check ElfGame Width" time="0" classname="Chrome 31.0.1650 (Windows 7).TestGameboard"/>
+    <testcase name="can get a hero" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get Sam" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get hitPoints" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get heroclass name" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get heroclass armor" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get heroclass shield" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get heroclass xpForLevel2" time="0.016" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get heroclass hitDie" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get heroclass damage" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get heroclass spell[0]" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get heroclass spell[0]" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get heroclass spell[1]" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get heroclass spell[2]" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get heroclass spell[3]" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get heroclass spell[4]" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get heroclass spell[5]" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get heroclass spell[6]" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get heroclass spell[7]" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get heroclass spell[8]" time="0.015" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get heroclass spell[9]" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get heroclass spell[10]" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get heroclass spell[11]" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get heroclass spell[12]" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get herorace name" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get herorace name" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get herorace description" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get herorace hitDie" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get herorace languages" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get herorace classes" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get bonusDamage" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get bonusDamage defined" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get bonusHitPoints" time="0.016" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get bonusHitPoints range" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get bonusDamage defined" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get bonusDamage range" time="0.015" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get a race" time="0" classname="Chrome 31.0.1650 (Windows 7).TestRaces"/>
+    <testcase name="can get a dwarf" time="0" classname="Chrome 31.0.1650 (Windows 7).TestRaces"/>
+    <testcase name="can find halflings" time="0" classname="Chrome 31.0.1650 (Windows 7).TestRaces"/>
+    <testcase name="can get a tower" time="0" classname="Chrome 31.0.1650 (Windows 7).TestTower"/>
+    <testcase name="tower hitPoints" time="0.016" classname="Chrome 31.0.1650 (Windows 7).TestTower"/>
+    <testcase name="tower damage" time="0" classname="Chrome 31.0.1650 (Windows 7).TestTower"/>
+    <testcase name="can get bonusDamage" time="0" classname="Chrome 31.0.1650 (Windows 7).TestTower"/>
+    <testcase name="can get bonusDamage defined" time="0" classname="Chrome 31.0.1650 (Windows 7).TestTower"/>
+    <testcase name="can get bonusHitPoints" time="0" classname="Chrome 31.0.1650 (Windows 7).TestTower"/>
+    <testcase name="can get bonusDamage defined" time="0" classname="Chrome 31.0.1650 (Windows 7).TestTower"/>
+    <system-out><![CDATA[
+]]></system-out>
+    <system-err/>
+  </testsuite>
+  <testsuite name="Chrome 31.0.1650 (Windows 7)" package="undefined" timestamp="2013-12-13T02:43:15" id="0" hostname="Redlily" tests="104" errors="0" failures="0" time="0.233">
+    <properties>
+      <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36"/>
+    </properties>
+    <testcase name="Change Direction Broadcast" time="0.047" classname="Chrome 31.0.1650 (Windows 7).Test Broadcasts: gameEventService"/>
+    <testcase name="Test Two Direction Broadcasts" time="0.015" classname="Chrome 31.0.1650 (Windows 7).Test Broadcasts: gameEventService"/>
+    <testcase name="Change Tower Broadcast" time="0" classname="Chrome 31.0.1650 (Windows 7).Test Broadcasts: gameEventService"/>
+    <testcase name="Tests a Debug Broadcast" time="0" classname="Chrome 31.0.1650 (Windows 7).Test Broadcasts: gameEventService"/>
+    <testcase name="Two Debug Broadcast" time="0" classname="Chrome 31.0.1650 (Windows 7).Test Broadcasts: gameEventService"/>
+    <testcase name="Tests Encounter Broadcast" time="0.016" classname="Chrome 31.0.1650 (Windows 7).Test Broadcasts: gameEventService"/>
+    <testcase name="can get a class" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Cleric" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Cleric&apos;s name" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Cleric&apos;s armor" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get Cleric hitDie" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Cleric shield" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Cleric spell" time="0.015" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Cleric weapon 0" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Cleric weapon 1" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Cleric weapon 2" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Cleric weapon 3" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Cleric weapon 4" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Cleric weapon 5" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Cleric spForLevelTwo" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Fighter" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Fighter" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Fighter hitDie" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Fighter shield" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Fighter spell" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Fighter weapon" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Fighter expFor Level 2" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Magic-User" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Magic-User armor" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Magic-User hitDie" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Magic-User shield" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Magic-User xpForLevel2" time="0.016" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Thief" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Thief armor" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Thief hitDie" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Thief shield" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Thief spells" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Thief weapons" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="can get a Thief weapons xp for Level 2" time="0" classname="Chrome 31.0.1650 (Windows 7).TestClasses"/>
+    <testcase name="Can create gameEventService" time="0.015" classname="Chrome 31.0.1650 (Windows 7).Test Elf Game"/>
+    <testcase name="gets the width of the playing field" time="0" classname="Chrome 31.0.1650 (Windows 7).Test Elf Game"/>
+    <testcase name="gets the height of the playing field" time="0" classname="Chrome 31.0.1650 (Windows 7).Test Elf Game"/>
+    <testcase name="rolls the D3" time="0.016" classname="Chrome 31.0.1650 (Windows 7).Test Elf Game"/>
+    <testcase name="registers a new village with the villages array" time="0" classname="Chrome 31.0.1650 (Windows 7).Test Elf Game"/>
+    <testcase name="simulates an encounter" time="0" classname="Chrome 31.0.1650 (Windows 7).Test Elf Game"/>
+    <testcase name="simulates an encounter tower end" time="0" classname="Chrome 31.0.1650 (Windows 7).Test Elf Game"/>
+    <testcase name="simulates a food encounter" time="0" classname="Chrome 31.0.1650 (Windows 7).Test Elf Game"/>
+    <testcase name="reports an event" time="0" classname="Chrome 31.0.1650 (Windows 7).Test Elf Game"/>
+    <testcase name="sends a change direction message" time="0.015" classname="Chrome 31.0.1650 (Windows 7).Test Elf Game"/>
+    <testcase name="sends a change direction message to elfcontroller" time="0" classname="Chrome 31.0.1650 (Windows 7).Test Elf Game"/>
+    <testcase name="sends a debug message" time="0" classname="Chrome 31.0.1650 (Windows 7).Test Elf Game"/>
+    <testcase name="sends a debug message to elfcontroller" time="0" classname="Chrome 31.0.1650 (Windows 7).Test Elf Game"/>
+    <testcase name="sends three debug messages to elfcontroller" time="0" classname="Chrome 31.0.1650 (Windows 7).Test Elf Game"/>
+    <testcase name="is a very silly test" time="0" classname="Chrome 31.0.1650 (Windows 7).Test Elf Game"/>
+    <testcase name="Check Name" time="0.016" classname="Chrome 31.0.1650 (Windows 7).Test Elf Player"/>
+    <testcase name="Check Event Note" time="0" classname="Chrome 31.0.1650 (Windows 7).Test Elf Player"/>
+    <testcase name="Check Debug Messages" time="0" classname="Chrome 31.0.1650 (Windows 7).Test Elf Player"/>
+    <testcase name="Check move Messages" time="0" classname="Chrome 31.0.1650 (Windows 7).Test Elf Player"/>
+    <testcase name="TestGameBoard Check ElfGame Width" time="0" classname="Chrome 31.0.1650 (Windows 7).TestGameboard"/>
+    <testcase name="can get a hero" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get Sam" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get hitPoints" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get heroclass name" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get heroclass armor" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get heroclass shield" time="0.016" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get heroclass xpForLevel2" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get heroclass hitDie" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get heroclass damage" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get heroclass spell[0]" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get heroclass spell[0]" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get heroclass spell[1]" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get heroclass spell[2]" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get heroclass spell[3]" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get heroclass spell[4]" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get heroclass spell[5]" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get heroclass spell[6]" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get heroclass spell[7]" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get heroclass spell[8]" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get heroclass spell[9]" time="0.015" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get heroclass spell[10]" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get heroclass spell[11]" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get heroclass spell[12]" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get herorace name" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get herorace name" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get herorace description" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get herorace hitDie" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get herorace languages" time="0.016" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get herorace classes" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get bonusDamage" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get bonusDamage defined" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get bonusHitPoints" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get bonusHitPoints range" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get bonusDamage defined" time="0" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get bonusDamage range" time="0.015" classname="Chrome 31.0.1650 (Windows 7).Test hero"/>
+    <testcase name="can get a race" time="0" classname="Chrome 31.0.1650 (Windows 7).TestRaces"/>
+    <testcase name="can get a dwarf" time="0" classname="Chrome 31.0.1650 (Windows 7).TestRaces"/>
+    <testcase name="can find halflings" time="0" classname="Chrome 31.0.1650 (Windows 7).TestRaces"/>
+    <testcase name="can get a tower" time="0" classname="Chrome 31.0.1650 (Windows 7).TestTower"/>
+    <testcase name="tower hitPoints" time="0" classname="Chrome 31.0.1650 (Windows 7).TestTower"/>
+    <testcase name="tower damage" time="0" classname="Chrome 31.0.1650 (Windows 7).TestTower"/>
+    <testcase name="can get bonusDamage" time="0" classname="Chrome 31.0.1650 (Windows 7).TestTower"/>
+    <testcase name="can get bonusDamage defined" time="0" classname="Chrome 31.0.1650 (Windows 7).TestTower"/>
+    <testcase name="can get bonusHitPoints" time="0" classname="Chrome 31.0.1650 (Windows 7).TestTower"/>
+    <testcase name="can get bonusDamage defined" time="0" classname="Chrome 31.0.1650 (Windows 7).TestTower"/>
     <system-out><![CDATA[
 ]]></system-out>
     <system-err/>
