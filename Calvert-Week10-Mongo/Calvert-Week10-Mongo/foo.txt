@@ -1,0 +1,144 @@
+[32mINFO [karma]: [39mKarma v0.10.8 server started at http://localhost:9876/
+[32mINFO [launcher]: [39mStarting browser Chrome
+[32mINFO [Chrome 31.0.1650 (Windows 7)]: [39mConnected on socket qSzfhJu_lzlNzcLyzeHZ
+[32mINFO [Chrome 31.0.1650 (Windows 7)]: [39mConnected on socket s92_gDMMouKw1c4NzeHa
+[32mINFO [Chrome 31.0.1650 (Windows 7)]: [39mConnected on socket GDZZsReKXIXC1PJEzeHb
+Chrome 31.0.1650 (Windows 7) LOG: [36m'Books factory called'[39m
+Chrome 31.0.1650 (Windows 7): Executed 0 of 3[32m SUCCESS[39m (0 secs / 0 secs)
+Chrome 31.0.1650 (Windows 7): Executed 0 of 3[32m SUCCESS[39m (0 secs / 0 secs)
+Chrome 31.0.1650 (Windows 7): Executed 0 of 0[32m SUCCESS[39m (0 secs / 0 secs)
+[1A[2K[1A[2K[1A[2KChrome 31.0.1650 (Windows 7): Executed 0 of 3[32m SUCCESS[39m (0 secs / 0 secs)
+Chrome 31.0.1650 (Windows 7): Executed 1 of 3[32m SUCCESS[39m (0 secs / 0.078 secs)
+Chrome 31.0.1650 (Windows 7): Executed 0 of 0[32m SUCCESS[39m (0 secs / 0 secs)
+[1A[2K[1A[2K[1A[2KChrome 31.0.1650 (Windows 7) LOG: [36m'Books factory called'[39m
+Chrome 31.0.1650 (Windows 7): Executed 0 of 3[32m SUCCESS[39m (0 secs / 0 secs)
+Chrome 31.0.1650 (Windows 7): Executed 1 of 3[32m SUCCESS[39m (0 secs / 0.078 secs)
+Chrome 31.0.1650 (Windows 7): Executed 0 of 0[32m SUCCESS[39m (0 secs / 0 secs)
+[1A[2K[1A[2K[1A[2KChrome 31.0.1650 (Windows 7): Executed 0 of 3[32m SUCCESS[39m (0 secs / 0 secs)
+Chrome 31.0.1650 (Windows 7): Executed 2 of 3[32m SUCCESS[39m (0 secs / 0.078 secs)
+Chrome 31.0.1650 (Windows 7): Executed 0 of 0[32m SUCCESS[39m (0 secs / 0 secs)
+[1A[2K[1A[2K[1A[2KChrome 31.0.1650 (Windows 7) LOG: [36m'Books factory called'[39m
+Chrome 31.0.1650 (Windows 7): Executed 0 of 3[32m SUCCESS[39m (0 secs / 0 secs)
+Chrome 31.0.1650 (Windows 7): Executed 2 of 3[32m SUCCESS[39m (0 secs / 0.078 secs)
+Chrome 31.0.1650 (Windows 7): Executed 0 of 0[32m SUCCESS[39m (0 secs / 0 secs)
+[1A[2K[1A[2K[1A[2K[31mChrome 31.0.1650 (Windows 7) main controller test can find tower hitpoints FAILED[39m
+	Error: Unexpected request: GET https://api.mongolab.com/api/1/databases/margie01/collections/books?apiKey=W_Xas2gshx3Baf9QX6W53oN7riOyhW4P
+	Expected GET https://api.mongolab.com/api/1/databases/elvenlab01/collections/address?apiKey=qfSxFoUGHBA1EuUlqhux_op2fy6oF_wy
+	    at $httpBackend (C:/Users/Margie/Documents/prog270/Calvert-Week10-Mongo/Library/angular-mocks.js:1179:9)
+	    at sendReq (C:/Users/Margie/Documents/prog270/Calvert-Week10-Mongo/Library/angular.js:7675:9)
+	    at $http.serverRequest (C:/Users/Margie/Documents/prog270/Calvert-Week10-Mongo/Library/angular.js:7409:16)
+	    at wrappedCallback (C:/Users/Margie/Documents/prog270/Calvert-Week10-Mongo/Library/angular.js:10597:81)
+	    at wrappedCallback (C:/Users/Margie/Documents/prog270/Calvert-Week10-Mongo/Library/angular.js:10597:81)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Week10-Mongo/Library/angular.js:10683:26
+	    at Scope.$eval (C:/Users/Margie/Documents/prog270/Calvert-Week10-Mongo/Library/angular.js:11576:28)
+	    at Scope.$digest (C:/Users/Margie/Documents/prog270/Calvert-Week10-Mongo/Library/angular.js:11421:31)
+	    at Function.$httpBackend.flush (C:/Users/Margie/Documents/prog270/Calvert-Week10-Mongo/Library/angular-mocks.js:1453:16)
+	    at null.<anonymous> (C:/Users/Margie/Documents/prog270/Calvert-Week10-Mongo/Tests/TestMongoData.js:45:22)
+	Error: [$rootScope:inprog] $digest already in progress
+	http://errors.angularjs.org/1.2.1/$rootScope/inprog?p0=%24digest
+	    at C:/Users/Margie/Documents/prog270/Calvert-Week10-Mongo/Library/angular.js:78:12
+	    at beginPhase (C:/Users/Margie/Documents/prog270/Calvert-Week10-Mongo/Library/angular.js:11878:15)
+	    at Scope.$digest (C:/Users/Margie/Documents/prog270/Calvert-Week10-Mongo/Library/angular.js:11412:9)
+	    at Function.$httpBackend.verifyNoOutstandingExpectation (C:/Users/Margie/Documents/prog270/Calvert-Week10-Mongo/Library/angular-mocks.js:1486:16)
+	    at null.<anonymous> (C:/Users/Margie/Documents/prog270/Calvert-Week10-Mongo/Tests/TestMongoData.js:29:22)
+Chrome 31.0.1650 (Windows 7): Executed 0 of 3[32m SUCCESS[39m (0 secs / 0 secs)
+Chrome 31.0.1650 (Windows 7): Executed 3 of 3[31m (1 FAILED)[39m (0 secs / 0.094 secs)
+Chrome 31.0.1650 (Windows 7): Executed 0 of 0[32m SUCCESS[39m (0 secs / 0 secs)
+[1A[2K[1A[2K[1A[2KChrome 31.0.1650 (Windows 7): Executed 0 of 3[32m SUCCESS[39m (0 secs / 0 secs)
+Chrome 31.0.1650 (Windows 7): Executed 3 of 3[31m (1 FAILED)[39m (0.257 secs / 0.094 secs)
+Chrome 31.0.1650 (Windows 7): Executed 0 of 0[32m SUCCESS[39m (0 secs / 0 secs)
+[1A[2K[1A[2K[1A[2KChrome 31.0.1650 (Windows 7) LOG: [36m'Books factory called'[39m
+Chrome 31.0.1650 (Windows 7): Executed 0 of 3[32m SUCCESS[39m (0 secs / 0 secs)
+Chrome 31.0.1650 (Windows 7): Executed 3 of 3[31m (1 FAILED)[39m (0.257 secs / 0.094 secs)
+Chrome 31.0.1650 (Windows 7): Executed 0 of 0[32m SUCCESS[39m (0 secs / 0 secs)
+[1A[2K[1A[2K[1A[2KChrome 31.0.1650 (Windows 7): Executed 1 of 3[32m SUCCESS[39m (0 secs / 0.078 secs)
+Chrome 31.0.1650 (Windows 7): Executed 3 of 3[31m (1 FAILED)[39m (0.257 secs / 0.094 secs)
+Chrome 31.0.1650 (Windows 7): Executed 0 of 0[32m SUCCESS[39m (0 secs / 0 secs)
+[1A[2K[1A[2K[1A[2KChrome 31.0.1650 (Windows 7) LOG: [36m'Books factory called'[39m
+Chrome 31.0.1650 (Windows 7): Executed 1 of 3[32m SUCCESS[39m (0 secs / 0.078 secs)
+Chrome 31.0.1650 (Windows 7): Executed 3 of 3[31m (1 FAILED)[39m (0.257 secs / 0.094 secs)
+Chrome 31.0.1650 (Windows 7): Executed 0 of 0[32m SUCCESS[39m (0 secs / 0 secs)
+[1A[2K[1A[2K[1A[2KChrome 31.0.1650 (Windows 7): Executed 2 of 3[32m SUCCESS[39m (0 secs / 0.094 secs)
+Chrome 31.0.1650 (Windows 7): Executed 3 of 3[31m (1 FAILED)[39m (0.257 secs / 0.094 secs)
+Chrome 31.0.1650 (Windows 7): Executed 0 of 0[32m SUCCESS[39m (0 secs / 0 secs)
+[1A[2K[1A[2K[1A[2KChrome 31.0.1650 (Windows 7) LOG: [36m'Books factory called'[39m
+Chrome 31.0.1650 (Windows 7): Executed 2 of 3[32m SUCCESS[39m (0 secs / 0.094 secs)
+Chrome 31.0.1650 (Windows 7): Executed 3 of 3[31m (1 FAILED)[39m (0.257 secs / 0.094 secs)
+Chrome 31.0.1650 (Windows 7): Executed 0 of 0[32m SUCCESS[39m (0 secs / 0 secs)
+[1A[2K[1A[2K[1A[2K[31mChrome 31.0.1650 (Windows 7) main controller test can find tower hitpoints FAILED[39m
+	Error: Unexpected request: GET https://api.mongolab.com/api/1/databases/margie01/collections/books?apiKey=W_Xas2gshx3Baf9QX6W53oN7riOyhW4P
+	Expected GET https://api.mongolab.com/api/1/databases/elvenlab01/collections/address?apiKey=qfSxFoUGHBA1EuUlqhux_op2fy6oF_wy
+	    at $httpBackend (C:/Users/Margie/Documents/prog270/Calvert-Week10-Mongo/Library/angular-mocks.js:1179:9)
+	    at sendReq (C:/Users/Margie/Documents/prog270/Calvert-Week10-Mongo/Library/angular.js:7675:9)
+	    at $http.serverRequest (C:/Users/Margie/Documents/prog270/Calvert-Week10-Mongo/Library/angular.js:7409:16)
+	    at wrappedCallback (C:/Users/Margie/Documents/prog270/Calvert-Week10-Mongo/Library/angular.js:10597:81)
+	    at wrappedCallback (C:/Users/Margie/Documents/prog270/Calvert-Week10-Mongo/Library/angular.js:10597:81)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Week10-Mongo/Library/angular.js:10683:26
+	    at Scope.$eval (C:/Users/Margie/Documents/prog270/Calvert-Week10-Mongo/Library/angular.js:11576:28)
+	    at Scope.$digest (C:/Users/Margie/Documents/prog270/Calvert-Week10-Mongo/Library/angular.js:11421:31)
+	    at Function.$httpBackend.flush (C:/Users/Margie/Documents/prog270/Calvert-Week10-Mongo/Library/angular-mocks.js:1453:16)
+	    at null.<anonymous> (C:/Users/Margie/Documents/prog270/Calvert-Week10-Mongo/Tests/TestMongoData.js:45:22)
+	Error: [$rootScope:inprog] $digest already in progress
+	http://errors.angularjs.org/1.2.1/$rootScope/inprog?p0=%24digest
+	    at C:/Users/Margie/Documents/prog270/Calvert-Week10-Mongo/Library/angular.js:78:12
+	    at beginPhase (C:/Users/Margie/Documents/prog270/Calvert-Week10-Mongo/Library/angular.js:11878:15)
+	    at Scope.$digest (C:/Users/Margie/Documents/prog270/Calvert-Week10-Mongo/Library/angular.js:11412:9)
+	    at Function.$httpBackend.verifyNoOutstandingExpectation (C:/Users/Margie/Documents/prog270/Calvert-Week10-Mongo/Library/angular-mocks.js:1486:16)
+	    at null.<anonymous> (C:/Users/Margie/Documents/prog270/Calvert-Week10-Mongo/Tests/TestMongoData.js:29:22)
+Chrome 31.0.1650 (Windows 7): Executed 3 of 3[31m (1 FAILED)[39m (0 secs / 0.109 secs)
+Chrome 31.0.1650 (Windows 7): Executed 3 of 3[31m (1 FAILED)[39m (0.257 secs / 0.094 secs)
+Chrome 31.0.1650 (Windows 7): Executed 0 of 0[32m SUCCESS[39m (0 secs / 0 secs)
+[1A[2K[1A[2K[1A[2KChrome 31.0.1650 (Windows 7): Executed 3 of 3[31m (1 FAILED)[39m (0.309 secs / 0.109 secs)
+Chrome 31.0.1650 (Windows 7): Executed 3 of 3[31m (1 FAILED)[39m (0.257 secs / 0.094 secs)
+Chrome 31.0.1650 (Windows 7): Executed 0 of 0[32m SUCCESS[39m (0 secs / 0 secs)
+[1A[2K[1A[2K[1A[2KChrome 31.0.1650 (Windows 7) LOG: [36m'Books factory called'[39m
+Chrome 31.0.1650 (Windows 7): Executed 3 of 3[31m (1 FAILED)[39m (0.309 secs / 0.109 secs)
+Chrome 31.0.1650 (Windows 7): Executed 3 of 3[31m (1 FAILED)[39m (0.257 secs / 0.094 secs)
+Chrome 31.0.1650 (Windows 7): Executed 0 of 3[32m SUCCESS[39m (0 secs / 0 secs)
+[1A[2K[1A[2K[1A[2KChrome 31.0.1650 (Windows 7): Executed 3 of 3[31m (1 FAILED)[39m (0.309 secs / 0.109 secs)
+Chrome 31.0.1650 (Windows 7): Executed 3 of 3[31m (1 FAILED)[39m (0.257 secs / 0.094 secs)
+Chrome 31.0.1650 (Windows 7): Executed 1 of 3[32m SUCCESS[39m (0 secs / 0.031 secs)
+[1A[2K[1A[2K[1A[2KChrome 31.0.1650 (Windows 7) LOG: [36m'Books factory called'[39m
+Chrome 31.0.1650 (Windows 7): Executed 3 of 3[31m (1 FAILED)[39m (0.309 secs / 0.109 secs)
+Chrome 31.0.1650 (Windows 7): Executed 3 of 3[31m (1 FAILED)[39m (0.257 secs / 0.094 secs)
+Chrome 31.0.1650 (Windows 7): Executed 1 of 3[32m SUCCESS[39m (0 secs / 0.031 secs)
+[1A[2K[1A[2K[1A[2KChrome 31.0.1650 (Windows 7): Executed 3 of 3[31m (1 FAILED)[39m (0.309 secs / 0.109 secs)
+Chrome 31.0.1650 (Windows 7): Executed 3 of 3[31m (1 FAILED)[39m (0.257 secs / 0.094 secs)
+Chrome 31.0.1650 (Windows 7): Executed 2 of 3[32m SUCCESS[39m (0 secs / 0.047 secs)
+[1A[2K[1A[2K[1A[2KChrome 31.0.1650 (Windows 7) LOG: [36m'Books factory called'[39m
+Chrome 31.0.1650 (Windows 7): Executed 3 of 3[31m (1 FAILED)[39m (0.309 secs / 0.109 secs)
+Chrome 31.0.1650 (Windows 7): Executed 3 of 3[31m (1 FAILED)[39m (0.257 secs / 0.094 secs)
+Chrome 31.0.1650 (Windows 7): Executed 2 of 3[32m SUCCESS[39m (0 secs / 0.047 secs)
+[1A[2K[1A[2K[1A[2K[31mChrome 31.0.1650 (Windows 7) main controller test can find tower hitpoints FAILED[39m
+	Error: Unexpected request: GET https://api.mongolab.com/api/1/databases/margie01/collections/books?apiKey=W_Xas2gshx3Baf9QX6W53oN7riOyhW4P
+	Expected GET https://api.mongolab.com/api/1/databases/elvenlab01/collections/address?apiKey=qfSxFoUGHBA1EuUlqhux_op2fy6oF_wy
+	    at $httpBackend (C:/Users/Margie/Documents/prog270/Calvert-Week10-Mongo/Library/angular-mocks.js:1179:9)
+	    at sendReq (C:/Users/Margie/Documents/prog270/Calvert-Week10-Mongo/Library/angular.js:7675:9)
+	    at $http.serverRequest (C:/Users/Margie/Documents/prog270/Calvert-Week10-Mongo/Library/angular.js:7409:16)
+	    at wrappedCallback (C:/Users/Margie/Documents/prog270/Calvert-Week10-Mongo/Library/angular.js:10597:81)
+	    at wrappedCallback (C:/Users/Margie/Documents/prog270/Calvert-Week10-Mongo/Library/angular.js:10597:81)
+	    at C:/Users/Margie/Documents/prog270/Calvert-Week10-Mongo/Library/angular.js:10683:26
+	    at Scope.$eval (C:/Users/Margie/Documents/prog270/Calvert-Week10-Mongo/Library/angular.js:11576:28)
+	    at Scope.$digest (C:/Users/Margie/Documents/prog270/Calvert-Week10-Mongo/Library/angular.js:11421:31)
+	    at Function.$httpBackend.flush (C:/Users/Margie/Documents/prog270/Calvert-Week10-Mongo/Library/angular-mocks.js:1453:16)
+	    at null.<anonymous> (C:/Users/Margie/Documents/prog270/Calvert-Week10-Mongo/Tests/TestMongoData.js:45:22)
+	Error: [$rootScope:inprog] $digest already in progress
+	http://errors.angularjs.org/1.2.1/$rootScope/inprog?p0=%24digest
+	    at C:/Users/Margie/Documents/prog270/Calvert-Week10-Mongo/Library/angular.js:78:12
+	    at beginPhase (C:/Users/Margie/Documents/prog270/Calvert-Week10-Mongo/Library/angular.js:11878:15)
+	    at Scope.$digest (C:/Users/Margie/Documents/prog270/Calvert-Week10-Mongo/Library/angular.js:11412:9)
+	    at Function.$httpBackend.verifyNoOutstandingExpectation (C:/Users/Margie/Documents/prog270/Calvert-Week10-Mongo/Library/angular-mocks.js:1486:16)
+	    at null.<anonymous> (C:/Users/Margie/Documents/prog270/Calvert-Week10-Mongo/Tests/TestMongoData.js:29:22)
+Chrome 31.0.1650 (Windows 7): Executed 3 of 3[31m (1 FAILED)[39m (0.309 secs / 0.109 secs)
+Chrome 31.0.1650 (Windows 7): Executed 3 of 3[31m (1 FAILED)[39m (0.257 secs / 0.094 secs)
+Chrome 31.0.1650 (Windows 7): Executed 3 of 3[31m (1 FAILED)[39m (0 secs / 0.062 secs)
+[1A[2K[1A[2K[1A[2KChrome 31.0.1650 (Windows 7): Executed 3 of 3[31m (1 FAILED)[39m (0.309 secs / 0.109 secs)
+Chrome 31.0.1650 (Windows 7): Executed 3 of 3[31m (1 FAILED)[39m (0.257 secs / 0.094 secs)
+Chrome 31.0.1650 (Windows 7): Executed 3 of 3[31m (1 FAILED)[39m (0.467 secs / 0.062 secs)
+[31mTOTAL: 3 FAILED, 6 SUCCESS[39m
+[33mWARN [Chrome 31.0.1650 (Windows 7)]: [39mDisconnected
+[31mERROR [launcher]: [39mChrome crashed.
+	
+[33mWARN [Chrome 31.0.1650 (Windows 7)]: [39mDisconnected
+[33mWARN [Chrome 31.0.1650 (Windows 7)]: [39mDisconnected
+Terminate batch job (Y/N)? 
