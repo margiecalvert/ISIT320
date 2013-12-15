@@ -51,10 +51,7 @@ angular.module('elfGameMod', ['characterMod', 'gameWrapMod'])
 			gameEventService.debugBroadcast('Tower hit points: ' + village.tower.hitPoints);
 			if (village.tower.hitPoints <= 0) {
 				gameEventService.encounterBroadcast('success');
-				if (this.level === 0){
-				this.level = this.level + 1;
-				Crafty.trigger('nextLevel', Crafty);
-				}
+				
 				return true;
 			} else {
 				gameEventService.encounterBroadcast('miss');

@@ -37,7 +37,35 @@ var boards = [
         [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
         [1, 0, 0, 4, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 1],
         [1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
-        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]],];
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]],
+        
+         // Level 3
+        [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1],
+        [1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 4, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 2, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 4, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 4, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 4, 0, 1],
+        [1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]],
+        
+         // Level 4
+        [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1],
+        [1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 4, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 2, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 4, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 4, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 4, 1],
+        [1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]] 	];
 	
 var createEntity = function(col, row, name) {
     Crafty.e(name).at(col, row);
@@ -53,7 +81,8 @@ var village= Crafty.e('Village').at(col, row);
 
 
 var createEntities = function(board) {
-	board = boards[0];
+	
+	
     for (var x = 0; x < Crafty.game.map_grid.width; x++) {
         for (var y = 0; y < Crafty.game.map_grid.height; y++) {
             var gridValue = board[y][x];
@@ -68,17 +97,20 @@ var createEntities = function(board) {
             }
         }
     }
-};
 	
 	
-	this.gameBoard = createEntities(board);
+	
+	
+	};
+	
+	
+	this.gameBoard = createEntities(boards[Crafty.game.level]);
 
 	// Player character, placed at 5, 5 on our grid
-	this.player = Crafty.e('PlayerCharacter').at(5, 5);
-	this.gameBoard[this.player.at().x][this.player.at().y] = true;
-
 	
-    
+           
+	this.player = Crafty.e('PlayerCharacter').at(5,5);
+	
 	
 	
 	
@@ -87,7 +119,13 @@ var createEntities = function(board) {
 	this.show_victory = this.bind('VillageVisited', function() {
 		Crafty.game.sendDebugMessage("Village Length: " + Crafty('Village').length);
 		if (!Crafty('Village').length) {
-			Crafty.scene('Victory');
+			Crafty.game.level++;
+			
+			if (Crafty.game.level === 3) {
+				Crafty.scene('Victory');
+			} else {
+				Crafty.scene('Game');
+			}
 		}
 	});
 }, function() { 'use strict';
