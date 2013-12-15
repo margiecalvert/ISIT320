@@ -7,54 +7,111 @@
 // Draw the initial game state
 Crafty.scene('Game', function() { 'use strict';
 
-	// A 2D array to keep track of all gameBoard tiles
-	this.gameBoard = new Array(Crafty.game.map_grid.width);
-	for (var i = 0; i < Crafty.game.map_grid.width; i++) {
-		this.gameBoard[i] = new Array(Crafty.game.map_grid.height);
-		for (var j = 0; j < Crafty.game.map_grid.height; j++) {
-			this.gameBoard[i][j] = false;
-		}
-	}
+var board = null;
+var boards = [
+
+        // Level 1
+        [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 4, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 2, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]],
+        
+        
+        // Level 2
+        [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1],
+        [1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 4, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 2, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 4, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 4, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]],
+        
+         // Level 3
+        [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1],
+        [1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 4, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 2, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 4, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 4, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 4, 0, 1],
+        [1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]],
+        
+         // Level 4
+        [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1],
+        [1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 4, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 2, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 4, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 4, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 4, 1],
+        [1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]];
+	
+var createEntity = function(col, row, name) {
+    Crafty.e(name).at(col, row);
+};
+    
+var createVillage = function(col, row){	
+	
+var village= Crafty.e('Village').at(col, row);
+	village.setName(village._entityName.replace('Entity', 'Village'));
+	Crafty.game.newVillage(village);
+};
+
+
+
+var createEntities = function(board) {
+	
+	
+    for (var x = 0; x < Crafty.game.map_grid.width; x++) {
+        for (var y = 0; y < Crafty.game.map_grid.height; y++) {
+            var gridValue = board[y][x];
+            if (gridValue === 1) {
+                createEntity(x, y, 'Tree');
+            } else if (gridValue === 2) {
+                createEntity(x, y, 'Bush');
+            } else if (gridValue === 3) {
+                createEntity(x, y, 'Food');
+            } else if (gridValue === 4) {
+                createVillage(x, y);
+            }
+        }
+    }
+	
+	
+	
+	
+	};
+	
+	
+	this.gameBoard = createEntities(boards[Crafty.game.level]);
 
 	// Player character, placed at 5, 5 on our grid
-	this.player = Crafty.e('PlayerCharacter').at(5, 5);
-	this.gameBoard[this.player.at().x][this.player.at().y] = true;
-
-	// Place a tree at every edge square on our grid of 16x16 tiles
-	for (var x = 0; x < Crafty.game.map_grid.width; x++) {
-		for (var y = 0; y < Crafty.game.map_grid.height; y++) {
-			var at_edge = x === 0 || x === Crafty.game.map_grid.width - 1 || y === 0 || y === Crafty.game.map_grid.height - 1;
-
-			if (at_edge) {
-				// Place a tree entity at the current tile
-				Crafty.e('Tree').at(x, y);
-				this.gameBoard[x][y] = true;
-			} else if (Math.random() < 0.06 && !this.gameBoard[x][y]) {
-				// Place a bush entity at the current tile
-				Crafty.e('Bush').at(x, y);
-				this.gameBoard[x][y] = true;
-			} else if (Math.random() < 0.05 && !this.gameBoard[x][y]) {
-				Crafty.e('Food').at(x, y);
-				this.gameBoard[x][y] = true;
-			}
-		}
-	}
-
-    
-    
-	// Generate up to five villages on the map in random locations
-	var max_villages = 5;
-	for (var col = 0; col < Crafty.game.map_grid.width; col++) {
-		for (var row = 0; row < Crafty.game.map_grid.height; row++) {
-			if (Math.random() < 0.02) {
-				if (Crafty('Village').length < max_villages && !this.gameBoard[col][row]) {
-					var village = Crafty.e('Village').at(col, row);
-					village.setName(village._entityName.replace('Entity', 'Village'));
-					Crafty.game.newVillage(village);
-				}
-			}
-		}
-	}
+	
+           
+	this.player = Crafty.e('PlayerCharacter').at(5,5);
+	
+	
 	
 	
 
@@ -62,7 +119,13 @@ Crafty.scene('Game', function() { 'use strict';
 	this.show_victory = this.bind('VillageVisited', function() {
 		Crafty.game.sendDebugMessage("Village Length: " + Crafty('Village').length);
 		if (!Crafty('Village').length) {
-			Crafty.scene('Victory');
+			Crafty.game.level++;
+			
+			if (Crafty.game.level === 3) {
+				Crafty.scene('Victory');
+			} else {
+				Crafty.scene('Game');
+			}
 		}
 	});
 }, function() { 'use strict';
@@ -79,9 +142,13 @@ Crafty.scene('Victory', function() { 'use strict';
 	Crafty.e('2D, DOM, Text')
 		.attr({ x: 0, y: 0 })
 		.text('You are victorious!');
+	
+		
 
 	// restart the game when a key is pressed
 	this.restart = function() {
+
+		
 		Crafty.scene('Game');
 	};
 
@@ -131,10 +198,10 @@ Crafty.scene('Loading', function(){ 'use strict';
 	// Load our sprite map image
 	Crafty.load(assets, function(){
 		Crafty.sprite(32, assets[0], {
-			spr_tree:    [0, 3],
+			spr_tree:    [0, 2],
 			spr_bush:    [1, 2],
 			spr_village: [0, 1],
-			spr_food: [1, 3]			
+			spr_food: [1, 0]			
 		});
 
 		//  The main character
@@ -156,6 +223,3 @@ Crafty.scene('Loading', function(){ 'use strict';
 		Crafty.scene('Game');
 	});
 });
-/**
- * @author Margie
- */

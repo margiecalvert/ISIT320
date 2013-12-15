@@ -6,6 +6,8 @@ angular.module('elfGameMod', ['characterMod', 'gameWrapMod'])
 	return {
 
 		map_grid : null,
+		
+		level: 0,
 
 		misses: 0,
 
